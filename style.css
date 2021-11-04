@@ -1,0 +1,167 @@
+:root{
+    background: rgb(206, 206, 206);
+    font-size: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+body{
+    width: 800px;
+    height: 800px;
+    background: aquamarine;
+    margin: 50px auto;
+    border: 1px solid #000;
+    border-radius: 3px;
+    box-shadow: 0 2px 15px 10px #fff;
+}
+/* header */
+header{
+    height: 50px;
+    
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+header a, .restart{
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 3px;
+    margin: auto;
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    padding-top: 2px;
+    box-shadow: 0 0 2px 2px rgb(50, 163, 163);
+    background: #fff;
+}
+header a:hover{
+    box-shadow:inset 0 0 2px 2px rgb(50, 163, 163);
+}
+/* container-seaWar*/
+center{
+    width: 700px;
+    height: 700px;
+    background: #fff;
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-image: url(https://www.publicdomainpictures.net/pictures/190000/velka/sea-surface-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+    box-sizing: border-box;
+    /*  */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+}
+h4{
+    color:#fff;
+    font-size:25px;
+    margin-bottom: 25px;;
+}
+/* photo  */
+.hide{
+    display: none;
+}
+.active{
+    display:block;
+}
+center img{
+    height: 500px;
+    width: 500px;
+    border:1px solid #000;
+    border-radius: 3px;
+}
+
+
+/* sea boxes */
+center .box1{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #000;
+    border-radius: 1px;
+    margin: 2px;
+    background: rgba(121, 121, 121, 0.384);
+    box-shadow: 0px 0px 3px #000;
+
+}
+center .box2{
+    height: 75px;
+    width: 75px;
+    border: 1px solid #000;
+    border-radius: 1px;
+    margin: 2px;
+    background: rgba(121, 121, 121, 0.384);
+    box-shadow: 0px 0px 3px #000;
+
+}
+center .box3{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000;
+    border-radius: 1px;
+    margin: 2px;
+    background: rgba(121, 121, 121, 0.384);
+    box-shadow: 0px 0px 3px #000;
+
+}
+center .box1:hover,center .box2:hover,center .box3:hover{
+    box-shadow:inset 0px 0px 25px rgb(206, 204, 204), 0px 0px 10px rgb(201, 201, 201);
+}
+/* count */
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+nav> span{
+    margin:auto 100px;
+}
+.miss{
+    background: rgba(127, 255, 212, 0.137)!important;
+
+}
+.hit144{
+    background-image: url(https://img2.freepng.ru/20180214/tle/kisspng-ship-piracy-clip-art-pirate-ship-sailing-5a840b468f2b56.1616181315186030785865.jpg) !important;
+    background-repeat: no-repeat!important;
+    background-size: 50px !important;
+}
+.hit64{
+    background-image: url(https://img2.freepng.ru/20180214/tle/kisspng-ship-piracy-clip-art-pirate-ship-sailing-5a840b468f2b56.1616181315186030785865.jpg) !important;
+    background-repeat: no-repeat!important;
+    background-size: 75px !important;
+}
+.hit36{
+    background-image: url(https://img2.freepng.ru/20180214/tle/kisspng-ship-piracy-clip-art-pirate-ship-sailing-5a840b468f2b56.1616181315186030785865.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: 100px !important;
+}
+.GameOver{
+    height: 300px;
+    width: 300px;
+    border: 1px solid #000;
+    border-radius: 1px;
+    margin: 2px;
+    background-image: url(https://media.kasperskydaily.com/wp-content/uploads/sites/92/2014/06/06043410/zeus.jpg) ;
+    background-size: 100%;
+    box-shadow: 0px 0px 3px #000;
+}
+.YouWin{
+    height: 300px;
+    width: 300px;
+    border: 1px solid #000;
+    border-radius: 1px;
+    margin: 2px;
+    background-image: url(https://t3.ftcdn.net/jpg/03/12/81/58/360_F_312815843_CdVm05kiBenU3YmChP1KRIzcblRgTQFV.jpg) ;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 3px #000;
+}
